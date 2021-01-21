@@ -1,0 +1,271 @@
+[2021-01-18 05:17:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 05:48:07] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 06:34:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 06:34:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 06:34:58] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 06:34:58] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 06:34:58] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 36 行：Use of undefined constant APP_PATH - assumed 'APP_PATH' (this will throw an Error in a future version of PHP) 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 83 行：Uncaught Error: Class 'OnStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:83
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server))
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：Uncaught Error: Class 'OnManagerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:88
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server))
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server), 4)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server), 5)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server), 6)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 {main}
+  thrown 
+[2021-01-18 07:33:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 93 行：Uncaught Error: Class 'OnWorkerStart' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:93
+Stack trace:
+#0 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\Http\Server), 7)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(142): Swoole\Server->start()
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(61): core\core\Core::workerStart()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#4 /www/wwwroot/uniswoole.com/index.php(25): core\core\Core::run()
+#5 {main}
+  thrown 
+[2021-01-18 07:37:23] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:37:23] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:38:48] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:38:48] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:39:51] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:39:51] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:43:29] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:43:29] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:44:08] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:44:08] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:45:57] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:45:57] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:46:06] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:46:06] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 49 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:47:04] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:47:04] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 51 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(51): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:48:55] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:48:55] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 51 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(51): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:50:19] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:50:19] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 51 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(51): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:51:32] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:51:32] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 52 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(52): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 07:54:14] [8192] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 3 行：Methods with the same name as their class will not be constructors in a future version of PHP; Index has a deprecated constructor 
+[2021-01-18 07:54:14] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 5 行：Uncaught ArgumentCountError: Too few arguments to function Index::index(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnRequest.php on line 52 and exactly 1 expected in /www/wwwroot/uniswoole.com/app/Index.php:5
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(52): Index->index()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(123): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 08:01:59] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 56 行：Array to string conversion 
+[2021-01-18 08:02:00] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 56 行：Array to string conversion 
+[2021-01-18 08:02:00] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 56 行：Array to string conversion 
+[2021-01-18 08:02:01] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 56 行：Array to string conversion 
+[2021-01-18 08:48:31] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 245 行：Uncaught Error: Class 'core\core\swoole_process' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:245
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(71): core\core\Core::workerStop()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#2 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#3 {main}
+  thrown 
+[2021-01-18 08:49:19] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 248 行：Uncaught Error: Class 'core\core\swoole_process' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:248
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(71): core\core\Core::workerStop()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#2 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#3 {main}
+  thrown 
+[2021-01-18 09:08:23] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(84): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-18 09:14:13] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(84): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-18 09:14:22] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(84): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-18 09:14:33] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(84): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-18 09:14:40] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(84): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-18 09:21:40] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 84 行：Uncaught Error: Class 'core\core\Swoole\Timer' not found in /www/wwwroot/uniswoole.com/core/core/Core.php:84
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(62): core\core\Core::workerStart(false)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(17): core\core\Core::parseCommand()
+#2 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#3 {main}
+  thrown 
+[2021-01-18 09:22:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 154 行：Swoole\Server::start(): eventLoop has already been created, unable to start Swoole\Http\Server 
+[2021-01-18 10:37:00] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to undefined method Swoole\Http\Request::task() in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:41:49] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 11 行：Uncaught Error: Call to undefined method Swoole\Http\Request::task() in /www/wwwroot/uniswoole.com/app/Index.php:11
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:49:30] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to undefined method Swoole\Http\Request::task() in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:49:59] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to a member function task() on array in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:52:51] [8] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Undefined property: Swoole\Http\Request::$serve 
+[2021-01-18 10:53:07] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to undefined method Swoole\Http\Request::serve() in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:53:40] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-18 10:59:55] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 164 行：Swoole\Server::start(): require onMessage callback 
+[2021-01-18 11:03:18] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 10 行：Uncaught Error: Call to undefined method Swoole\Http\Request::server() in /www/wwwroot/uniswoole.com/app/Index.php:10
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(129): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 

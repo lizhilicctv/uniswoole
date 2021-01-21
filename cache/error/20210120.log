@@ -1,0 +1,210 @@
+[2021-01-20 19:44:27] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-20 19:44:27] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-20 19:44:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-20 19:44:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-20 19:44:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 89 行：shell_exec() has been disabled for security reasons 
+[2021-01-20 19:44:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 92 行：shell_exec() has been disabled for security reasons 
+[2021-01-20 19:45:59] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-20 19:45:59] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-20 19:45:59] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() expects exactly 1 parameter, 3 given 
+[2021-01-20 19:45:59] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-20 19:46:10] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-20 19:46:10] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-20 19:46:10] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() expects exactly 1 parameter, 3 given 
+[2021-01-20 19:46:10] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-20 19:46:10] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 111 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:111
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(111): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-20 19:47:07] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 106 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:106
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(106): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-20 20:14:22] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:22] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:14:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:28] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:28] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:29] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:18:31] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:19:37] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:19:37] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:23:46] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:23:46] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:54] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:54] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:54] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:54] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:55] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 58 行：Swoole\Http\Response::header(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 20:25:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnRequest.php 中第 61 行：Swoole\Http\Response::end(): http response is unavailable (maybe it has been ended or detached) 
+[2021-01-20 22:42:43] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 16 行：Uncaught Error: Class 'Db' not found in /www/wwwroot/uniswoole.com/app/Index.php:16
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(51): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(149): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 22 行：Undefined variable: frame 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 22 行：Trying to get property 'fd' of non-object 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 22 行：Undefined variable: frame 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 22 行：Trying to get property 'data' of non-object 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 25 行：Undefined variable: frame 
+[2021-01-20 22:57:21] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 25 行：Trying to get property 'data' of non-object 
+[2021-01-20 22:57:26] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Undefined variable: data_arr 
+[2021-01-20 22:57:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Swoole\Server::send(): fd can not be null 
+[2021-01-20 22:59:08] [1] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 23 行：Uncaught Error: Class 'core\MysqlPool' not found in /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php:23
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#1 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#5 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#6 {main}
+  thrown 
+[2021-01-20 23:00:33] [1] 文件：/www/wwwroot/uniswoole.com/core/core/OnManagerStart.php 中第 23 行：Uncaught Error: Class 'MysqlPool' not found in /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php:23
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#1 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#5 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#6 {main}
+  thrown 
+[2021-01-20 23:01:06] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 19 行：Uncaught ArgumentCountError: Too few arguments to function MysqlPool::__construct(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php on line 23 and exactly 1 expected in /www/wwwroot/uniswoole.com/core/MysqlPool.php:19
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:03:18] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 25 行：Undefined index: master 
+[2021-01-20 23:03:18] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 26 行：Undefined index: master 
+[2021-01-20 23:11:37] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 34 行：go(): Unable to use async-io in manager process 
+[2021-01-20 23:13:03] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 35 行：go(): Unable to use async-io in manager process 
+[2021-01-20 23:13:37] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 36 行：go(): Unable to use async-io in manager process 
+[2021-01-20 23:15:24] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 28 行：Uncaught Error: Class 'MysqlDB' not found in /www/wwwroot/uniswoole.com/core/MysqlPool.php:28
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:16:35] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 176 行：Swoole\Server::reload(): failed to send the reload signal, Error: No such process[3] 
+[2021-01-20 23:16:50] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 28 行：Uncaught Error: Class 'Db' not found in /www/wwwroot/uniswoole.com/core/MysqlPool.php:28
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:17:11] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 28 行：Uncaught Error: Class 'Db' not found in /www/wwwroot/uniswoole.com/core/MysqlPool.php:28
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:30:04] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 28 行：Uncaught Error: Class 'Db' not found in /www/wwwroot/uniswoole.com/core/MysqlPool.php:28
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:51:00] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 3 行：Uncaught Swoole\ExitException: swoole exit in /www/wwwroot/uniswoole.com/core/MysqlPool.php:3
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/index.php(21): require_once()
+#1 [internal function]: {closure}('core/MysqlPool')
+#2 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): spl_autoload_call('MysqlPool')
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#4 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#6 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#7 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#8 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#9 {main}
+  thrown 
+[2021-01-20 23:51:32] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 20 行：Uncaught ArgumentCountError: Too few arguments to function MysqlPool::__construct(), 0 passed in /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php on line 23 and exactly 1 expected in /www/wwwroot/uniswoole.com/core/MysqlPool.php:20
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnManagerStart.php(23): MysqlPool->__construct()
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(113): OnManagerStart::run(Object(Swoole\WebSocket\Server), Array)
+#2 [internal function]: core\core\Core::core\core\{closure}(Object(Swoole\WebSocket\Server))
+#3 /www/wwwroot/uniswoole.com/core/core/Core.php(185): Swoole\Server->start()
+#4 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#5 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#6 /www/wwwroot/uniswoole.com/index.php(26): core\core\Core::run()
+#7 {main}
+  thrown 
+[2021-01-20 23:52:16] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 25 行：Undefined index: master 
+[2021-01-20 23:52:16] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 26 行：Undefined index: master 
+[2021-01-20 23:52:41] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 26 行：Undefined index: master 
+[2021-01-20 23:52:41] [8] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 27 行：Undefined index: master 
+[2021-01-20 23:55:27] [1] 文件：/www/wwwroot/uniswoole.com/core/MysqlPool.php 中第 36 行：go(): Unable to use async-io in manager process 

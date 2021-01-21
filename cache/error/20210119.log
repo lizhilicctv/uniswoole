@@ -1,0 +1,248 @@
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Swoole\Server::task(): Server->task() cannot use in the task-worker 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Swoole\Server::task(): Server->task() cannot use in the task-worker 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Swoole\Server::task(): Server->task() cannot use in the task-worker 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Undefined variable: param 
+[2021-01-19 19:21:25] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnWorkerStart.php 中第 9 行：Swoole\Server::task(): Server->task() cannot use in the task-worker 
+[2021-01-19 19:21:30] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Undefined variable: data_arr 
+[2021-01-19 19:21:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Swoole\Server::send(): fd can not be null 
+[2021-01-19 19:21:30] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Undefined variable: data_arr 
+[2021-01-19 19:21:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Swoole\Server::send(): fd can not be null 
+[2021-01-19 19:21:30] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Undefined variable: data_arr 
+[2021-01-19 19:21:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Swoole\Server::send(): fd can not be null 
+[2021-01-19 19:21:30] [8] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Undefined variable: data_arr 
+[2021-01-19 19:21:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/OnTask.php 中第 16 行：Swoole\Server::send(): fd can not be null 
+[2021-01-19 19:26:37] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 85 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:85
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(85): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(false)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:15:32] [1] 文件：/www/wwwroot/uniswoole.com/app/Index.php 中第 11 行：Uncaught Error: Call to undefined function move() in /www/wwwroot/uniswoole.com/app/Index.php:11
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/OnRequest.php(49): Index->home(Object(Swoole\Http\Request), Array)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(134): OnRequest::run(Object(Swoole\Http\Request), Object(Swoole\Http\Response))
+#2 {main}
+  thrown 
+[2021-01-19 21:34:23] [2] 文件：/www/wwwroot/uniswoole.com/core/Conn.php 中第 31 行：strrpos() expects parameter 1 to be string, array given 
+[2021-01-19 21:34:23] [2] 文件：/www/wwwroot/uniswoole.com/core/Conn.php 中第 31 行：substr() expects parameter 1 to be string, array given 
+[2021-01-19 21:34:26] [2] 文件：/www/wwwroot/uniswoole.com/core/Conn.php 中第 31 行：strrpos() expects parameter 1 to be string, array given 
+[2021-01-19 21:34:26] [2] 文件：/www/wwwroot/uniswoole.com/core/Conn.php 中第 31 行：substr() expects parameter 1 to be string, array given 
+[2021-01-19 21:50:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:50:56] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:51:24] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:51:30] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:51:45] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:51:52] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:51:52] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:52:04] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:52:04] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:55:17] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:55:17] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:55:26] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:55:26] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:58:08] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:58:08] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 21:59:43] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 21:59:43] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:00:33] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:00:33] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:01:06] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:01:06] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 101 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:101
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(101): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:02:38] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:02:38] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 102 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:102
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(102): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:09:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：Undefined variable: out 
+[2021-01-19 22:09:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：Undefined variable: res 
+[2021-01-19 22:09:51] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:09:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-19 22:09:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：Undefined variable: res 
+[2021-01-19 22:09:51] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:10:18] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:10:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：Undefined variable: out 
+[2021-01-19 22:10:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：Undefined variable: res 
+[2021-01-19 22:10:51] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:10:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-19 22:10:51] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：Undefined variable: res 
+[2021-01-19 22:10:51] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:12:02] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:02] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:02] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:12:14] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:14] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:14] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:12:15] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 86 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:15] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:15] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 108 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:108
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(108): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:12:35] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:35] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:35] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 109 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:109
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(109): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:12:51] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:12:51] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-19 22:12:51] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 109 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:109
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(109): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:19:43] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-19 22:19:43] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-19 22:19:43] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:19:43] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-19 22:19:43] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 109 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:109
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(109): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:26:27] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-19 22:26:27] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-19 22:26:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-19 22:26:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 89 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:27] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 92 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:27] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 111 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:111
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(111): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
+[2021-01-19 22:26:57] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: out 
+[2021-01-19 22:26:57] [8] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：Undefined variable: res 
+[2021-01-19 22:26:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 87 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 88 行：exec() has been disabled for security reasons 
+[2021-01-19 22:26:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 89 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:57] [2] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 92 行：shell_exec() has been disabled for security reasons 
+[2021-01-19 22:26:57] [1] 文件：/www/wwwroot/uniswoole.com/core/core/Core.php 中第 111 行：Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9509], Error: Address already in use[98] in /www/wwwroot/uniswoole.com/core/core/Core.php:111
+Stack trace:
+#0 /www/wwwroot/uniswoole.com/core/core/Core.php(111): Swoole\Server->__construct('0.0.0.0', 9509)
+#1 /www/wwwroot/uniswoole.com/core/core/Core.php(63): core\core\Core::workerStart(true)
+#2 /www/wwwroot/uniswoole.com/core/core/Core.php(18): core\core\Core::parseCommand()
+#3 /www/wwwroot/uniswoole.com/index.php(24): core\core\Core::run()
+#4 {main}
+  thrown 
