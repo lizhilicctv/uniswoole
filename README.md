@@ -4,7 +4,7 @@
 
 大家可以下载框架。
 
-码云地址：[https://gitee.com/lizhilicctv/uniswoole](https://gitee.com/lizhilicctv/uniswoole)
+码云地址：[https://gitee.com/lizhiliwo/uniswoole](https://gitee.com/lizhiliwo/uniswoole)
 
 github地址：[https://github.com/lizhilicctv/uniswoole](https://github.com/lizhilicctv/uniswoole)
 
